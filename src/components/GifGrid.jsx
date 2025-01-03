@@ -3,7 +3,7 @@
 import { useFhechGifs } from "../hooks/useFhechGifs";
 import { GifItem } from "./GifItem";
 
-
+///voy a guardar un nuevo cambio
 
 
 
@@ -12,7 +12,7 @@ export const GifGrid = ({ category }) => {
   const { images, isLoading } = useFhechGifs ( category );
 
 
-useFhechGifs
+
   return (
     <>
       <h3>{ category }</h3>

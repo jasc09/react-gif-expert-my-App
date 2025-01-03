@@ -13,7 +13,7 @@ export const useFhechGifs = ( category ) => {
       const [images, setImages] = useState([]);
       const [isLoading, setIsLoading] = useState( true );
    
-      getGifs
+
 
           //
     
